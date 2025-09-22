@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { MessageCircle, Send, X, AlertTriangle, Smile } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -56,7 +56,8 @@ export function LiveChat() {
     );
   };
 
-  const formatTimeAgo = (date: Date) => {
+  const formatTimeAgo = (timestamp: string | Date) => {
+    const date = typeof timestamp === 'string' ? new Date() : timestamp;
     const now = new Date();
     const diffInMinutes = Math.floor((now.getTime() - date.getTime()) / (1000 * 60));
     
