@@ -79,13 +79,6 @@ export function Footer() {
                 <span>@KurakotKillerPH</span>
                 <ExternalLink className="h-3 w-3" />
               </a>
-              <div className="text-sm">
-                <span className="text-gray-400">Email:</span>
-                <br />
-                <a href="mailto:admin@kurakotkiller.ph" className="hover:text-ph-yellow transition-colors">
-                  admin@kurakotkiller.ph
-                </a>
-              </div>
             </div>
           </div>
 
