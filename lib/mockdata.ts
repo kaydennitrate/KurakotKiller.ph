@@ -38,7 +38,8 @@ export type ChatMessage = {
   id: string;
   username: string;
   message: string;
-  timestamp: string;
+  timestamp: string | Date;
+  reported?: boolean;
 };
 
 export const chatMessages: ChatMessage[] = [
