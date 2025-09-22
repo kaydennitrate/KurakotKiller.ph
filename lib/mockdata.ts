@@ -33,3 +33,31 @@ export const uploads: Upload[] = [
     timestamp: '1d ago',
   },
 ];
+
+export type ChatMessage = {
+  id: string;
+  username: string;
+  message: string;
+  timestamp: string;
+};
+
+export const chatMessages: ChatMessage[] = [
+  {
+    id: '1',
+    username: 'PinoyFighter123',
+    message: 'Let’s expose the truth! #Floodgate',
+    timestamp: 'Just now',
+  },
+  {
+    id: '2',
+    username: 'JusticeSeekerPH',
+    message: 'Join the rally at Luneta! #TrillionPesoMarch',
+    timestamp: '5m ago',
+  },
+  {
+    id: '3',
+    username: 'AnonTipster',
+    message: 'Check the latest evidence on the 3.3T scandal!',
+    timestamp: '10m ago',
+  },
+];
