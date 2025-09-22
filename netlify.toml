@@ -6,3 +6,6 @@
   from = "/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+[functions]
+  directory = ".netlify/functions"
