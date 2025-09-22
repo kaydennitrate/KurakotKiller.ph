@@ -9,7 +9,6 @@ export type Translations = {
   social: string;
   donation: string;
   home: string;
-  about: string;
 };
 
 const translations: Record<Language, Translations> = {
@@ -22,7 +21,6 @@ const translations: Record<Language, Translations> = {
     social: 'Social',
     donation: 'Support Us',
     home: 'Home',
-    about: 'About',
   },
   tl: {
     transparency_note: 'Ginawa gamit ang mga libreng tool, walang personal na data na iniimbak.',
@@ -33,7 +31,6 @@ const translations: Record<Language, Translations> = {
     social: 'Sosyal',
     donation: 'Suportahan Kami',
     home: 'Bahay',
-    about: 'Tungkol',
   },
 };
 
