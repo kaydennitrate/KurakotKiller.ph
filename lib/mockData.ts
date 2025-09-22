@@ -62,3 +62,39 @@ export const chatMessages: ChatMessage[] = [
     timestamp: '10m ago',
   },
 ];
+
+export type CorruptionSite = {
+  id: string;
+  name: string;
+  lat: number;
+  lng: number;
+  severity: number; // 1-10, for heatmap intensity
+  description: string;
+};
+
+export const corruptionSites: CorruptionSite[] = [
+  {
+    id: '1',
+    name: 'Manila Flood Control Project',
+    lat: 14.5896,
+    lng: 120.9751,
+    severity: 8,
+    description: 'Suspected overpricing in flood control funds.',
+  },
+  {
+    id: '2',
+    name: 'Cebu Infrastructure Contract',
+    lat: 10.3157,
+    lng: 123.8854,
+    severity: 6,
+    description: 'Unverified contractor payments.',
+  },
+  {
+    id: '3',
+    name: 'Davao Public Works',
+    lat: 7.1907,
+    lng: 125.4553,
+    severity: 7,
+    description: 'Alleged misuse of 3.3T funds.',
+  },
+];
