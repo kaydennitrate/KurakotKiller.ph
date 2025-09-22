@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --corruption-dark: #1a1a1a;
+  --corruption-red: #e53e3e;
+  --corruption-yellow: #f6e05e;
+  --ph-gradient: linear-gradient(45deg, #0050e6, #e60000);
+}
